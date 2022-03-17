@@ -70,6 +70,7 @@ public class EmployeeController {
 		List<MarchEmp> list = new ArrayList<MarchEmp>();
 		list.add(marchEmp);
 		trainer.setMarchEmp(list);
+		System.out.println(trainer);
 		return trainerServiceImpl.saveTrainer(trainer);
 
 	}
